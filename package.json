@@ -1,5 +1,5 @@
 {
-    "name": "title-cli",
+    "name": "@jarmentor/title-cli",
     "version": "1.0.0",
     "description": "A command-line interface for converting strings to APA compliant title case",
     "main": "index.js",
