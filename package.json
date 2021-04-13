@@ -1,0 +1,39 @@
+{
+    "name": "title-cli",
+    "version": "1.0.0",
+    "description": "A command-line interface for converting strings to APA compliant title case",
+    "main": "index.js",
+    "bin": {
+        "title-cli": "./index.js"
+    },
+    "homepage": "https://github.com/jarmentor/title-cli",
+    "scripts": {
+        "start": "node --harmony ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "terminal",
+        "command line",
+        "apa format",
+        "string formatting",
+        "change case",
+        "title",
+        "formatting",
+        "node",
+        "cli",
+        "developer tools"
+    ],
+    "engines": {
+        "node": ">12"
+    },
+    "author": {
+        "name": "Jonathan Armentor",
+        "email": "jonathan@jonathanarmentor.com",
+        "url": "https://github.com/jarmentor"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "ap-style-title-case": "^1.1.2",
+        "commander": "^7.2.0"
+    }
+}
